@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/jquery-migrate.js"></script>
+    <script src="/assets/js/ebay.js"></script>
+    <style>
+        body {
+            width: 400px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header img {
+            max-height: 50px;
+        }
+        .header h1 {
+            font-size: 1.4rem;
+            margin-left: 20px;
+            text-align: center;
+        }
+        #result {
+            font-size: 2rem;
+        }
+        #userWord {
+            width: 100%;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <section id="default">
+        <div class="header">
+            <img src="/assets/imgs/honey_logo.png" alt="honey_logo">
+            <h1>Honey</h1>
+        </div>
+        <div class="content">
+            <p>There are no any actions in the current url!</p>
+        </div>
+    </section>
+    <section id="ebay">
+        <div class="header">
+            <img src="/assets/imgs/honey_logo_ebay.png" alt="honey_ebay_logo">
+            <h1>ebay Best Offer accepted</h1>
+        </div>
+        <div class="content">
+            <input id="result"/>
+        </div>
+    </section>
+    <section id="facebook">
+        <div class="header">
+            <img src="/assets/imgs/honey_logo_fb.png" alt="honey_ebay_logo">
+            <h1>FaceBook Recommended Post</h1>
+        </div>
+        <div class="content">
+            <input id="result"/>
+        </div></section>
+    <section id="bidder">
+        <div class="header">
+            <img src="/assets/imgs/honey_logo_ab.png" alt="honey_ebay_logo">
+            <h1>Auto Bidder</h1>
+        </div>
+        <div class="content">
+            <input id="result"/>
+        </div></section>
+</body>
+</html>
